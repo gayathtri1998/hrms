@@ -1,0 +1,30 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2022-11-19 16:13:28.859724",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"name\",\"Loan Application\"],[\"docstatus\",\"Loan Application\"],[\"company\",\"Loan Application\"],[\"applicant_name\",\"Loan Application\"],[\"loan_amount\",\"Loan Application\"],[\"loan_type\",\"Loan Application\"],[\"applicant\",\"Loan Application\"],[\"applicant_type\",\"Loan Application\"],[\"status\",\"Loan Application\"],[\"is_term_loan\",\"Loan Application\"],[\"is_secured_loan\",\"Loan Application\"],[\"description\",\"Loan Application\"],[\"rate_of_interest\",\"Loan Application\"],[\"total_payable_interest\",\"Loan Application\"],[\"total_payable_amount\",\"Loan Application\"],[\"amount\",\"Proposed Pledge\"]],\"order_by\":\"`tabLoan Application`.`modified` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":120,\"company\":120,\"applicant_name\":120,\"loan_amount\":120,\"loan_type\":120,\"applicant\":120,\"applicant_type\":120,\"status\":120,\"is_term_loan\":120,\"is_secured_loan\":120,\"description\":120,\"rate_of_interest\":120,\"total_payable_interest\":120,\"total_payable_amount\":120,\"Proposed Pledge:amount\":120},\"group_by\":null}",
+ "modified": "2022-11-19 17:10:03.174675",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "Loan Application Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Loan Application",
+ "report_name": "Loan Application Report",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "Loan Manager"
+  },
+  {
+   "role": "Employee"
+  }
+ ]
+}

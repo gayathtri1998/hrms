@@ -1,0 +1,36 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2022-11-19 15:45:22.240517",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"name\",\"Shift Request\"],[\"docstatus\",\"Shift Request\"],[\"employee_name\",\"Shift Request\"],[\"shift_type\",\"Shift Request\"],[\"employee\",\"Shift Request\"],[\"company\",\"Shift Request\"],[\"department\",\"Shift Request\"],[\"from_date\",\"Shift Request\"],[\"to_date\",\"Shift Request\"],[\"approver\",\"Shift Request\"],[\"status\",\"Shift Request\"]],\"order_by\":\"`tabShift Request`.`modified` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":120,\"employee_name\":120,\"shift_type\":120,\"employee\":120,\"company\":120,\"department\":120,\"from_date\":120,\"to_date\":120,\"approver\":120,\"status\":120},\"group_by\":null}",
+ "modified": "2022-11-19 15:45:54.368651",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "Shift Request Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Shift Request",
+ "report_name": "Shift Request Report",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "Employee"
+  },
+  {
+   "role": "HR User"
+  },
+  {
+   "role": "HR Manager"
+  },
+  {
+   "role": "Employee Self Service"
+  }
+ ]
+}

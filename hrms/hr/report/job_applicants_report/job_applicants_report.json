@@ -1,0 +1,30 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2022-11-19 16:59:23.449289",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"name\",\"Job Applicant\"],[\"docstatus\",\"Job Applicant\"],[\"applicant_name\",\"Job Applicant\"],[\"job_title\",\"Job Applicant\"],[\"status\",\"Job Applicant\"],[\"applicant_rating\",\"Job Applicant\"],[\"phone_number\",\"Job Applicant\"],[\"email_id\",\"Job Applicant\"],[\"country\",\"Job Applicant\"],[\"designation\",\"Job Applicant\"]],\"order_by\":\"`tabJob Applicant`.`modified` asc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":120,\"applicant_name\":120,\"job_title\":120,\"status\":120,\"applicant_rating\":120,\"phone_number\":120,\"email_id\":120,\"country\":120,\"designation\":120},\"group_by\":null}",
+ "modified": "2022-11-19 17:01:48.279269",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "Job Applicants Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Job Applicant",
+ "report_name": "Job Applicants Report",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "HR User"
+  },
+  {
+   "role": "Employee Self Service"
+  }
+ ]
+}

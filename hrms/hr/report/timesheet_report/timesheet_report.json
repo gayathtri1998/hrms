@@ -1,0 +1,42 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2022-11-19 15:34:06.929632",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"name\",\"Timesheet\"],[\"docstatus\",\"Timesheet\"],[\"status\",\"Timesheet\"],[\"employee\",\"Timesheet\"],[\"department\",\"Timesheet\"],[\"activity_type\",\"Timesheet Detail\"],[\"start_date\",\"Timesheet\"],[\"end_date\",\"Timesheet\"],[\"per_billed\",\"Timesheet\"],[\"total_hours\",\"Timesheet\"],[\"from_time\",\"Timesheet Detail\"],[\"to_time\",\"Timesheet Detail\"],[\"expected_hours\",\"Timesheet Detail\"],[\"description\",\"Timesheet Detail\"],[\"completed\",\"Timesheet Detail\"],[\"hours\",\"Timesheet Detail\"]],\"order_by\":\"`tabTimesheet`.`modified` asc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":120,\"status\":120,\"employee\":120,\"department\":120,\"Timesheet Detail:activity_type\":120,\"start_date\":120,\"end_date\":120,\"per_billed\":120,\"total_hours\":120,\"Timesheet Detail:from_time\":120,\"Timesheet Detail:to_time\":120,\"Timesheet Detail:expected_hours\":120,\"Timesheet Detail:description\":120,\"Timesheet Detail:completed\":120,\"Timesheet Detail:hours\":120},\"group_by\":null}",
+ "modified": "2022-11-19 17:14:01.832313",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "TimeSheet Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Timesheet",
+ "report_name": "TimeSheet Report",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "Employee"
+  },
+  {
+   "role": "HR User"
+  },
+  {
+   "role": "Manufacturing User"
+  },
+  {
+   "role": "Projects User"
+  },
+  {
+   "role": "Accounts User"
+  },
+  {
+   "role": "Employee Self Service"
+  }
+ ]
+}
