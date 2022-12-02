@@ -1,0 +1,128 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-21 18:46:58.326440",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "department",
+  "column_break_2",
+  "ot_from_date",
+  "column_break_4",
+  "ot_to_date",
+  "section_break_6",
+  "get_template",
+  "column_break_8",
+  "upload",
+  "section_break_10",
+  "error_preview",
+  "section_break_12",
+  "csv_preview",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Department",
+   "options": "Department",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ot_from_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "OT From Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ot_to_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "OT To Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "get_template",
+   "fieldtype": "Button",
+   "label": "Get Template"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "upload",
+   "fieldtype": "Attach",
+   "label": "Upload"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "error_preview",
+   "fieldtype": "HTML",
+   "label": "Error Preview"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "csv_preview",
+   "fieldtype": "HTML",
+   "label": "CSV Preview"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Overtime Plan",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-11-21 18:46:58.326440",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "Overtime Plan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
