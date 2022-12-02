@@ -2,22 +2,25 @@
 // For license information, please see license.txt
 /* eslint-disable */
 
-frappe.query_reports["Attrition Details Report"] = {
+frappe.query_reports["Overtime Plan List"] = {
 	"filters": [
 		{
-			"fieldname":"from_date",
+			"fieldname": "from_date",
 			"label": __("From Date"),
 			"fieldtype": "Date",
 			"reqd": 1,
-			"default":''
-
 		},
 		{
-			"fieldname":"to_date",
+			"fieldname": "to_date",
 			"label": __("To Date"),
 			"fieldtype": "Date",
 			"reqd": 1,
-			"default":''
+		},
+		{
+			"fieldname": "employee",
+			"label": __("Employee"),
+			"fieldtype": "Link",
+			"options": "Employee",
 		}
-	]
-
+	],
+};

@@ -6,7 +6,8 @@ from six import string_types
 import frappe
 import json
 from frappe.utils import (getdate, cint, add_months, date_diff, add_days,
-	nowdate, get_datetime_str, cstr, get_datetime, now_datetime, format_datetime)
+nowdate, get_datetime_str, cstr, get_datetime, now_datetime, format_datetime)
+
 from datetime import datetime
 from calendar import monthrange
 from frappe import _, msgprint
@@ -16,6 +17,7 @@ from itertools import count
 
 
 def execute(filters=None):
+
 	columns = get_columns()
 	data = []
 	row = []
@@ -23,15 +25,13 @@ def execute(filters=None):
 	for att in attendance:
 		data.append(att)
 	return columns, data
-
+  
 def get_columns():
     columns = [
         _("Employee") + ":Link/Employee:150",
         _("Employee Name") + ":Data:180",
         _("Department") + ":Data:180",
         _("Status") + ":Data:180"
-        
-    
 	]
         
     return columns
@@ -53,3 +53,4 @@ def get_attendance(filters):
         if count:
             row += [(emp.name,emp.employee_name,emp.department,att_list,count)]
     return row		
+
