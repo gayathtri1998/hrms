@@ -1,9 +1,11 @@
+import datetime
 import requests
 
 import frappe
 from frappe.utils import now_datetime
 
 from erpnext.setup.utils import enable_all_roles_and_domains
+datetime_like_types = (datetime.datetime, datetime.date, datetime.time, datetime.timedelta)
 
 country_info = {}
 
